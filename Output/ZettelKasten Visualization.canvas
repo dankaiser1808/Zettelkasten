@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"b4e3208beb564848","type":"file","file":"Input/Courses/The Zettelkasten Method.md","x":240,"y":-760,"width":400,"height":520},
+		{"id":"7edc1d5b80c87ae9","type":"file","file":"Zettelkasten/How to Take Notes.md","x":560,"y":-24,"width":400,"height":400},
+		{"id":"aecdc89061eda2df","type":"file","file":"Zettelkasten/The Quality of Consumed Content.md","x":-80,"y":-24,"width":400,"height":400},
+		{"id":"fd2dcb01f48851b1","type":"file","file":"Zettelkasten/Structuring Content Input.md","x":-80,"y":480,"width":400,"height":560},
+		{"id":"8f6afb3edf49335e","type":"file","file":"Zettelkasten/Generate high quality Output.md","x":-80,"y":1360,"width":400,"height":400},
+		{"id":"b170f727c575dd0d","x":560,"y":640,"width":400,"height":400,"type":"file","file":"Zettelkasten/Fleeting Notes.md"},
+		{"id":"d26ba60543ee9175","x":560,"y":1360,"width":400,"height":400,"type":"file","file":"Zettelkasten/Permanent Notes.md"}
+	],
+	"edges":[
+		{"id":"77fecf1f7099577d","fromNode":"aecdc89061eda2df","fromSide":"left","toNode":"fd2dcb01f48851b1","toSide":"left"},
+		{"id":"908dc303efbbae50","fromNode":"fd2dcb01f48851b1","fromSide":"bottom","toNode":"8f6afb3edf49335e","toSide":"left"},
+		{"id":"c19cccf4831fbb0d","fromNode":"fd2dcb01f48851b1","fromSide":"right","toNode":"b170f727c575dd0d","toSide":"left"},
+		{"id":"2695a2308fdafd49","fromNode":"7edc1d5b80c87ae9","fromSide":"bottom","toNode":"b170f727c575dd0d","toSide":"top"},
+		{"id":"c8bb5c9cd2b70484","fromNode":"b170f727c575dd0d","fromSide":"bottom","toNode":"d26ba60543ee9175","toSide":"left"},
+		{"id":"efe023048bb3749f","fromNode":"b4e3208beb564848","fromSide":"bottom","toNode":"aecdc89061eda2df","toSide":"right"},
+		{"id":"8910755b2502ff14","fromNode":"b4e3208beb564848","fromSide":"bottom","toNode":"7edc1d5b80c87ae9","toSide":"left"}
+	]
+}
