@@ -1,0 +1,1 @@
+In the community metadata is referred as "the data of the data", which provides us context about the data stored in a file, item or collection. This helps us to understand the data itself, giving us information like the file size, the name, author and other useful information that makes it easier to manage, work and track the file itself.

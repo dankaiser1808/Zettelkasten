@@ -1,0 +1,3 @@
+#aws 
+
+LightSails whole idea is based on making the use of AWS for people of different backgrounds easier. You don't need to understand the entire AWS Stack to get started and you also don't need to customize EC2 instances by yourself. It's focused on simplicity and ease of usage, providing pre-configured solutions backed with the reliability ensured from Amazon. Even if your project growths and more advanced features are needed, we can simply transition from LightSail to EC2. With that said, LightSail integrates directly into the AWS ecosystem, including more than 90 different services in a simplified manner.

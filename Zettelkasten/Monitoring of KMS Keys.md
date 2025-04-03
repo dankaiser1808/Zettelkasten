@@ -1,0 +1,1 @@
+KMS integrates well with AWS CloudTrail, so that we can monitor who used the key at which time and provides logs for the usage itself. It also works well with CloudWatch, to gain metrics based on the key activities. On top of that, we can define alarms if specific metrics reach a threshold.
