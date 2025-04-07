@@ -12,4 +12,7 @@ private:
 
 Building Images in CI/CD Pipeline and store them in ECR
 
+- It is a fully managed AWS service that integrates well with other services. 
+- Provides a private registry
+- Image Lifecycle management like automatic cleanups or retention policies.
 
