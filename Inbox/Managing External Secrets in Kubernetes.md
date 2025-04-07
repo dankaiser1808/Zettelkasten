@@ -2,13 +2,17 @@
 
 ## Eso integration argocd
 
-- Let’s make our lab a little bit more secure. Today, I’m going to share with how to use the external secrets operator to dynamically create and update your secrets which are stored in an external vault. For the third party vault, I use OnePassword. Before we can jump into how everything works together, I’ll would like to briefly introduce each technology we are going to utilize and then bring them together. We will use the argocd secret as our example and I’ll show you how to deal with the chicken and egg problem it introduces.
+- Let’s make our homelab a little bit more secure. Today, I’m going to share how to use the external secrets operator to dynamically create and update secrets which are stored in an external vault. For the third party vault, I use OnePassword. Before we can jump into how everything works together, I’ll would like to briefly introduce each technology we are going to utilize and then bring everything together. We will use the ArgoCD secret as our example and I’ll show you how to deal with the chicken and egg problem it introduces.
 
 ### One Password Connect 
 
-Let’s start with OnePassword and setup our vault where we will store our secrets.
 
-  
+Let’s start with installing OnePassword connect Helm Chart into our cluster. This works as a proxy between our external secret operator and the OnePassword API, acting as a cache and offers an additional api to interact from within our cluster to retrieve the secrets.
+
+```bash
+helm repo add 1password https://1password.github.io/connect-helm-charts/
+```
+
 
 First, we will install the OnePassword cli tool and create the vault that we will use to store our passwords. 
 
