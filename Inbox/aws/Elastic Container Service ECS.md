@@ -1,3 +1,9 @@
+---
+id: Elastic Container Service ECS
+aliases: []
+tags: []
+---
+
 #consume #split
 
 Amazon provides their own container orchestration solution to dynamically run containers on multiple hosts. A container orchestration tool is the environment that manages all your containers. Part of it's responsobilities are deploymrent, load-balancing, container communication, restarts and reschedule on host failure. Containers are independent isolated units where we can run our applications. They are based on linux cgroups and namespaces.

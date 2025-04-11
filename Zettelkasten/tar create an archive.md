@@ -1,3 +1,9 @@
+---
+id: tar create an archive
+aliases: []
+tags: []
+---
+
 to create an archive, we run tar with the -c flag which stands for create.
 
 ```bash

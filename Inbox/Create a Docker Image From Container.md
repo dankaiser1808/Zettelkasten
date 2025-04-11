@@ -1,3 +1,10 @@
+---
+id: Create a Docker Image From Container
+aliases:
+  - Create a Docker Image From Container
+tags: []
+---
+
 #consume 
 
 We can create an Image from the current state of a container by using the following commands:
@@ -6,7 +13,7 @@ We can create an Image from the current state of a container by using the follow
 docker export -o container.tar <CONTAINER>
 ```
 
-this will generate a tar archive file. 
+This will generate a tar archive file. 
 
 Next, we import the tarball:
 
