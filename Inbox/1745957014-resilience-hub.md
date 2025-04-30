@@ -2,7 +2,8 @@
 id: 1745957014-resilience-hub
 aliases:
   - Resilience Hub
-tags: []
+tags:
+  - aws
 ---
 
 # Resilience Hub

@@ -2,7 +2,8 @@
 id: 1745956729-resource-groupes
 aliases:
   - Resource Groupes
-tags: []
+tags:
+  - aws
 ---
 
 # Resource Groupes

@@ -2,7 +2,8 @@
 id: 1745946933-aws-health-dashboard
 aliases:
   - AWS Health Dashboard
-tags: []
+tags:
+  - aws
 ---
 
 # AWS Health Dashboard

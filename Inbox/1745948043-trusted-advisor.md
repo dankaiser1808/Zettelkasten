@@ -2,7 +2,8 @@
 id: 1745948043-trusted-advisor
 aliases:
   - Trusted Advisor
-tags: []
+tags:
+  - aws
 ---
 
 # Trusted Advisor

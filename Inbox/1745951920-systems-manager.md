@@ -2,12 +2,13 @@
 id: 1745951920-systems-manager
 aliases:
   - Systems Manager
-tags: []
+tags:
+  - aws
 ---
 
 # Systems Manager
 
-Helps us to create a systems inventory for all of our servers either in AWS, other cloud providers, on-premise data centerns and IOT Fleets.
+Helps us to create a systems inventory for all of our servers either in AWS, other cloud providers, on-premise data centers and IOT Fleets.
 
 The systems-manager provides us with a centralized control unit that can group the servers/resources and automates tasks for those servers. It manages system updates and gives us operational insights of the systems. Additionally, we can manage the configurations of the servers, the secrets and use remote access through a browser or cli.
 
@@ -36,7 +37,7 @@ Systems manager has a lot of different features, we can group them in the follow
   Lock or enable changes in specific time windows.
 
 - Maintenance Windows:
-  Define winddows where updates should be applied to minimize user effected during the maintenance window.
+  Define windows where updates should be applied to minimize user effected during the maintenance window.
 
 ### Node Management
 
